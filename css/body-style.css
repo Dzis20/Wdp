@@ -1,0 +1,16 @@
+body {
+    margin: 0;
+    padding: 0;
+    color: #212121;
+    min-width: 1400px;
+    font-family: 'Open Sans', sans-serif;
+    /* font-family: 'Roboto', sans-serif; */
+    font-size: 15px;
+    line-height: 22px;
+    /* background:#17c2a4; */
+  
+}
+.container {
+    width: 1170px;
+    margin: 0 auto;
+}

@@ -1,0 +1,95 @@
+.pricing {
+    padding: 125px 0;
+    background: #f0f1f1;
+}
+
+.pricing h2 {
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.pricing h2 ~ p {
+    text-align: center;
+    font-size: 15px;
+    line-height: 22px;
+    margin-bottom: 125px;
+}
+
+.price-list-item {
+    width: 370px;
+    background: linear-gradient(174deg,#3949ab 35%,#ffffff 35% );
+    display: inline-block;
+    margin-right: 26px;
+}
+.price-list-item:last-child {
+    margin-right: 0;
+}
+.price-list-item-header {
+    padding-top: 48px;
+    margin-bottom: 117px;
+}
+.price-list-item-header h3 {
+    font-size: 25px;
+    color: #ffffff;
+    font-weight: 400;
+    text-align: center;
+    padding-bottom: 15px;
+}
+.price-list-item-header p {
+    text-align: center;
+    color: #ffffff;
+    font-size: 17px;
+}
+.price-list-item-header p span {
+text-transform: uppercase;
+font-size: 50px;
+}
+.price-list-item-header p span sup {
+    font-size: 25px;
+}
+
+.price-list-body-nav {
+    list-style: none;
+    /* display: inline-block; */
+    width: 220px;
+    margin: 0 auto;
+    margin-bottom: 65px;
+}
+
+.price-list-body-nav li {
+    height: 32px;
+    padding-bottom: 3px;
+    border-bottom: 1px solid #bfbfbf;
+    font-size: 17px;
+    width: 174px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.price-list-body-nav li:last-child {
+    margin-bottom: 0;
+}
+.price-list-body-btn {
+    width: 180px;
+    margin: 0 auto;
+    padding-bottom: 63px;
+}
+.price-list-body-btn a {
+    display: inline-block;
+    width: 168px;
+    height: 34px;
+    border: 3px solid rgb(33, 33, 33); 
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;  
+    text-decoration: none;
+    color: rgb(33, 33, 33);
+    padding-top: 14px;
+}
+
+.price-list-body-btn a:hover {
+    border: 3px solid #3949ab;
+    background: #3949ab;
+    color: white;
+}

@@ -1,0 +1,83 @@
+.team {
+    padding: 125px 0;
+}
+
+.team h2 {
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.team h2 ~ p {
+    text-align: center;
+    font-size: 15px;
+    line-height: 22px;
+    margin-bottom: 125px;
+}
+
+.team-list-item {
+    width: 370px;
+    display: inline-block;
+    margin-right: 26px;
+}
+.team-list-item:last-child {
+    margin-right: 0;
+}
+.team-list-item h3 {
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    padding-top: 20px;
+}
+.team-list-item p {
+    text-align: center;
+    margin-bottom: 35px;
+}
+
+.team-list-item .fab {
+    display: inline-block;
+    text-align: center;
+    padding-top: 10px;
+    width: 50px;
+    height: 40px;
+    background:#f0f1f1;
+    border-radius: 15%;
+    color: #00897b;
+    
+}
+.team-list-item-social a {
+    margin-right: 10px;
+}
+.team-list-item-social a:last-child {
+    margin-right: 0;
+}
+
+.team-list-item .fab:hover {
+    background: #3949ab;
+    color: white;
+}
+.team-list-item-social {
+    width: 242px;
+    margin: 0 auto;
+    margin-bottom: 125px;
+}
+
+ul.team-nav {
+    list-style: none;
+    width: 90px;
+    margin: 0 auto;
+} 
+ul.team-nav li {
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    background: #00897b;
+    border-radius: 50%;
+    margin-right: 5px;
+}
+ul.team-nav li:last-child {
+    margin-right: 0;
+}
+ul.team-nav li:first-child {
+    background: #3949ab;
+}

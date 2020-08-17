@@ -1,0 +1,37 @@
+.about-us {
+    padding: 127px 0;
+}
+.about-us h2 {
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.about-us p {
+    text-align: center;
+    font-size: 15px;
+    line-height: 22px;
+    margin-bottom: 100px;
+}
+.about-us-item {
+    width: 370px;
+    display: inline-block;
+    margin-right: 26px;
+}
+.about-us-item:last-child {
+    margin-right: 0;
+}
+.about-us-item-img {
+    width: 60px;
+    margin: 0 auto;
+    margin-bottom: 40px;
+}
+.about-us-item h3 {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.about-us-item p {
+    margin-bottom: 0;
+}

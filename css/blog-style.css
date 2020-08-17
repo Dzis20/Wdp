@@ -1,0 +1,90 @@
+.blog {
+    padding: 125px 0;
+    background: #e4fdf9;
+}
+
+.blog h2 {
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.blog h2 ~ p {
+    text-align: center;
+    font-size: 15px;
+    line-height: 22px;
+    margin-bottom: 125px;
+}
+
+
+.blog-list-item-one .blog-list-item-img, .blog-list-item-three .blog-list-item-img {
+    display: inline-block;
+    width: 570px;
+    margin-right: 26px;
+} 
+.blog-list-item-one .blog-list-item-text, .blog-list-item-three .blog-list-item-text {
+    display: inline-block;
+    width: 570px;
+    vertical-align: top;
+    padding-top: 30px;
+}
+.blog-list-item-two .blog-list-item-img {
+    display: inline-block;
+    width: 570px;
+}
+.blog-list-item-two .blog-list-item-text {
+    display: inline-block;
+    width: 570px;
+    margin-right: 26px;
+    vertical-align: top;
+    padding-top: 30px;
+}
+.blog-list-item-text i.far {
+    margin-right: 5px;
+}
+.blog-list-item-text span {
+    margin-right: 20px;
+    font-size: 17px;
+    font-weight: 600;
+}
+.blog-list-item-text p {
+    padding-top: 35px;
+}
+
+.blog-list-item h3 {
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+.blog-list-item h3:hover {
+    color: #00897b;
+}
+
+.blog-list {
+    margin-bottom: 125px;
+}
+
+.blog-button {
+    width: 230px;
+    margin: 0 auto;
+}
+.blog-button a {
+    display: inline-block;
+    width: 214px;
+    height: 39px;
+    border: 3px solid rgb(33, 33, 33);
+    background-color: #e4fdf9;
+    color: rgb(33, 33, 33);
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    padding-top: 19px;
+}
+.blog-button a:hover {
+    color: white;
+    background: #00897b;
+    border-color: #00897b;
+}
